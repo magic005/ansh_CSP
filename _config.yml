@@ -1,9 +1,9 @@
 title: Nighthawk Pages 
 description: "Class of 2025"
-owner_name: John Mortensen
-github_username: nighthawkcoders
-github_repo: "student_2025" 
-baseurl: "/student_2025"
+owner_name: Ansh Kumar
+github_username: magic005
+github_repo: "Ansh_CSP" 
+baseurl: "/Ansh_CSP"
 future: true
 remote_theme: jekyll/minima
 minima:
