@@ -111,10 +111,7 @@ $subscribe-color:       tomato !default;
   color: #f92672;
   font-weight: bold;
 }
-.highlight .ow {
-  color: #f92672;
-  font-weight: bold;
-}
+
 .highlight .o {
   color: #f92672;
   font-weight: bold;
@@ -198,8 +195,9 @@ $subscribe-color:       tomato !default;
 .highlight .bp {
   color: #f8f8f2;
 }
-.highlight .nb {
-  color: #f8f8f2;
+
+.highlight .ow {
+  color: #61d1ba;
 }
 .highlight .ni {
   color: #f8f8f2;

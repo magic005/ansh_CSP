@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+
+.button {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: #000000;
+    border: 3px solid black;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    transition: all 0.5s;
+  }
+  
+  .button:hover {
+    background-image: linear-gradient(to right, #35bde7, #0064cf);
+  }
+  
+  .row {
+    align-items: center;
+    display: flex;
+  }
+  
+  .column {
+    flex: 16.66%;
+    padding: 3px;
+  }
+  
+  .stat-container {
+    width: 100vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.5fr repeat(5, 1fr);
+    gap: 10px 10px;
+  }
+  
+  .calculator-container {
+    padding-top: 60px;
+    width: 100vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.5fr repeat(5, 1fr);
+    gap: 10px 10px;
+  }
+  
+  .calculator-number {
+    background-color: #ff7878;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  .calculator-operation {
+    background-color: #000000;
+    color: rgb(13, 20, 57);
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  .calculator-clear {
+    background-color: #000000;
+    color: #e70f0f;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  .calculator-equals {
+    background-color: black;
+    color: #e70f0f;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  @media (min-width: 600px) {
+    .calculator-container {
+      width: 40vw;
+      height: 80vh;
+    }
+  }
+  
+  body {
+    background-image: linear-gradient(to right, rgb(21, 21, 21), rgb(0, 0, 0));
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  a {
+    color: rgb(9, 127, 206);
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  h2,
+  h3,
+  h4 {
+    background: linear-gradient(to right, #35bde7, #0064cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  h1 {
+    font-size: 30px;
+    background: linear-gradient(130deg, #67dbff, #183ced);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 200% 200%;
+    -webkit-animation: Animation 4s ease infinite;
+    -moz-animation: Animation 4s ease infinite;
+    animation: Animation 4s ease infinite;
+  }
+  
+  @-webkit-keyframes Animation {
+    0% {
+      background-position: 10% 0%;
+    }
+    50% {
+      background-position: 91% 100%;
+    }
+    100% {
+      background-position: 10% 0%;
+    }
+  }
+  
+  @-moz-keyframes Animation {
+    0% {
+      background-position: 10% 0%;
+    }
+    50% {
+      background-position: 91% 100%;
+    }
+    100% {
+      background-position: 10% 0%;
+    }
+  }
+  
+  @keyframes Animation {
+    0% {
+      background-position: 10% 0%;
+    }
+    50% {
+      background-position: 91% 100%;
+    }
+    100% {
+      background-position: 10% 0%;
+    }
+  }
+  
+  .calculator-number {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: #21807c;
+    border: 3px solid black;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    transition: all 0.5s;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  .calculator-operation {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: #21807c;
+    border: 3px solid black;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    transition: all 0.5s;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  .calculator-clear {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: #e68b1c;
+    border: 3px solid black;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    transition: all 0.5s;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  .calculator-equals {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: #e70f0f;
+    border: 3px solid black;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    transition: all 0.5s;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  
+  .calc-function {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: #21807c;
+    border: 3px solid black;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    transition: all 0.5s;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  

@@ -1,6 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+
 // Override Syntax Highlighting In Minima With the Dracula Theme: https://draculatheme.com/
 // If you wish to override any of this CSS, do so in _sass/minima/custom-styles.css
- 
+:root {
+  --default-canvas-filter: invert(100%);
+  font-family: 'Noto Sans', sans-serif;
+}
+
 $dt-gray-dark: #282a36;  // Background
 $dt-code-cell-background: #323443;
 $dt-gray: #44475a;       // Current Line & Selection
@@ -40,7 +46,7 @@ $dt-green-light: rgb(172, 229, 145);
     background: #323443 !important;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
+    font-family: 'Noto Sans', sans-serif;
     border-radius: 5px;
     font-size: 105%;
 }
@@ -73,10 +79,10 @@ $dt-green-light: rgb(172, 229, 145);
 
 .highlight {
     background: $dt-code-cell-background !important;
-    color: $dt-gray-light !important;
+    color: #ddaaaa!important;
     pre, code {
      background: $dt-code-cell-background;
-     color: $dt-gray-light;
+     color: blue;
      font-size: 110%;
     }
    

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+/* Updated Navbar CSS */
+header {
+    background-color: #0d5084;
+    color: white;
+    padding: 10px;  /* Reduced padding */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;  /* Reduced margin between links */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height for compactness */
+}
+
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #c8102e;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea {
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #0d5084;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0d5084;
+}
+
+footer {
+    background-color: #0d5084;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,4 +1,5 @@
 // Comment in or Uncomment out the following themes to use them 
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap);
 
 // Dark themes
 //@import "minima/leaf/_leaf";  //Leaf theme
@@ -11,3 +12,31 @@
 //@import "minima/minimal-mistakes/__minimal-mistakes"; //Minimal Mistakes theme 
 // Mix Light themes with this if your eyes are bleeding 
 @import "minima/dracula/dark-mode";
+
+title, .page-header,.post-title,.post-content h3,h1, h2, h3, h4, p, li, a {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.highlight {
+    color: #ff8686;
+}
+
+.highlight .o {
+    color: #61d1ba;
+}
+
+.highlight .p {
+    color: #d069fb;
+}
+
+.hightlight .nb {
+    color: #59f28b;
+}
+
+.hightlight .c1 {
+    color: #008e5a;
+}
+
+.highlight .s {
+    color: #00c07a;
+}

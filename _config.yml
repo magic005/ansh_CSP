@@ -1,9 +1,8 @@
-title: Nighthawk Pages 
-description: "Class of 2025"
+title: Ansh's Blog
 owner_name: Ansh Kumar
 github_username: magic005
-github_repo: "Ansh_CSP" 
-baseurl: "/Ansh_CSP"
+github_repo: "AnshCSP" 
+baseurl: "/AnshCSP"
 future: true
 remote_theme: jekyll/minima
 minima:
@@ -23,4 +22,5 @@ header_pages:
   - navigation/blog.md
   - navigation/search.md
   - navigation/about.md
+  - navigation/game.md
   - README4YML.md

@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+
 :root {
     --default-canvas-filter: invert(100%);
+    font-family: 'Noto Sans', sans-serif;
 }
 
 $high-emph: rgba(white, 0.87);
@@ -12,7 +15,11 @@ $overlay-light: mix($dark-grey, white, 86%);
 
 html, body, input, textarea, select, button {   
   color: $high-emph !important;
-  background-color: $dark-grey !important;
+  background-color: black !important;
+}
+
+title, .page-header, h1, h2, h3, h4, p, li, a {
+    font-family: 'Noto Sans', sans-serif;
 }
 
 a {
@@ -25,15 +32,16 @@ a:hover {
 
 .site-title, .site-title:visited, .site-nav, .page-link {
     color: $high-emph !important;
+    font-family: 'Noto Sans', sans-serif
 }
 
 .site-nav {
     background-color: $dark-grey;
-    border-color: $overlay-light;
+    border-color:#003e69;
 }
 
 * {
-    scrollbar-color: $dark-grey $overlay-light;
+    scrollbar-color: #003e69 #001a2c;
 }
 
 pre, code {
@@ -52,6 +60,7 @@ pre, code {
 
 .post-content p, .post-content li {
     color: $med-emph;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .btn {
@@ -89,10 +98,12 @@ canvas {
     box-shadow: none !important;
     background-color: $overlay;
     border: none !important;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 li .post-meta-description {
     color: $med-emph !important;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .search-result-preview{

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Clicker</title>
+  <link rel="stylesheet" href="css/master.css">
+  <style>
+    body {
+      background-color: black;
+      color: blue;
+      font-family: 'Gill Sans', sans-serif;
+      text-align: center;
+    }
+
+    #click {
+      background-image: url('images/cookie.jpeg');
+      background-size: cover;
+      border: none;
+      width: 200px;
+      height: 200px;
+      cursor: pointer;
+      display: block;
+      margin: 20px auto;
+    }
+
+    input[type="button"] {
+      color: rgb(0, 87, 119);
+      background-color: black;
+      border: 2px solid rgb(0, 87, 119);
+      padding: 10px;
+      margin: 10px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    #display {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .menu-button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .menu-button-container button {
+      border: none;
+      cursor: pointer;
+    }
+
+    .menu-button-container button:hover {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <div id="display">0</div>
+
+  <!-- Image button to click for cookies -->
+  <button id="click"></button>
+
+  <!-- Action buttons -->
+  <input id="multiply" type="button" value="Multiply">
+  <input id="autoclick" type="button" value="Auto Click">
+  <input id="bonus" type="button" value="Bonus">
+  <input id="reset" type="button" value="Reset">
+  <input id="save" type="button" value="Save Game">
+  <input id="load" type="button" value="Load Game">
+
+  <!-- Back to Menu Button at the bottom -->
+  <div class="menu-button-container">
+    <a href="index_game.html"><button>Back to Menu</button></a>
+  </div>
+
+  <script type="text/javascript" src="js/cookieclicker.js"></script>
+</body>
+</html>
